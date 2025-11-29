@@ -43,5 +43,96 @@ Amani Digital is a web platform dedicated to creating a safer online environment
     ```bash
     npm run dev
     ```
+**##project structure**
+Here is a list of all the files and their locations:
+
+.
+|-- public
+|   |-- favicon.ico
+|   `-- gebeya.webp
+|-- src
+|   |-- components
+|   |   |-- ui
+|   |   |   |-- accordion.tsx
+|   |   |   |-- alert-dialog.tsx
+|   |   |   |-- alert.tsx
+|   |   |   |-- aspect-ratio.tsx
+|   |   |   |-- avatar.tsx
+|   |   |   |-- badge.tsx
+|   |   |   |-- breadcrumb.tsx
+|   |   |   |-- button-group.tsx
+|   |   |   |-- button.tsx
+|   |   |   |-- calendar.tsx
+|   |   |   |-- card.tsx
+|   |   |   |-- carousel.tsx
+|   |   |   |-- chart.tsx
+|   |   |   |-- checkbox.tsx
+|   |   |   |-- collapsible.tsx
+|   |   |   |-- command.tsx
+|   |   |   |-- context-menu.tsx
+|   |   |   |-- dialog.tsx
+|   |   |   |-- drawer.tsx
+|   |   |   |-- dropdown-menu.tsx
+|   |   |   |-- empty.tsx
+|   |   |   |-- field.tsx
+|   |   |   |-- form.tsx
+|   |   |   |-- hover-card.tsx
+|   |   |   |-- input-group.tsx
+|   |   |   |-- input-otp.tsx
+|   |   |   |-- input.tsx
+|   |   |   |-- item.tsx
+|   |   |   |-- kbd.tsx
+|   |   |   |-- label.tsx
+|   |   |   |-- menubar.tsx
+|   |   |   |-- navigation-menu.tsx
+|   |   |   |-- pagination.tsx
+|   |   |   |-- popover.tsx
+|   |   |   |-- progress.tsx
+|   |   |   |-- radio-group.tsx
+|   |   |   |-- resizable.tsx
+|   |   |   |-- scroll-area.tsx
+|   |   |   |-- select.tsx
+|   |   |   |-- separator.tsx
+|   |   |   |-- sheet.tsx
+|   |   |   |-- sidebar.tsx
+|   |   |   |-- skeleton.tsx
+|   |   |   |-- slider.tsx
+|   |   |   |-- sonner.tsx
+|   |   |   |-- spinner.tsx
+|   |   |   |-- switch.tsx
+|   |   |   |-- table.tsx
+|   |   |   |-- tabs.tsx
+|   |   |   |-- teleprompter.tsx
+|   |   |   |-- textarea.tsx
+|   |   |   |-- toggle-group.tsx
+|   |   |   |-- toggle.tsx
+|   |   |   `-- tooltip.tsx
+|   |   |-- Footer.tsx
+|   |   |-- Header.tsx
+|   |   |-- ProtectedRoute.tsx
+|   |   `-- SurvivorSupportChat.tsx
+|   |-- contexts
+|   |   `-- AuthContext.tsx
+|   |-- hooks
+|   |   `-- useAuth.tsx
+|   |-- lib
+|   |   `-- utils.ts
+|   |-- pages
+|   |   |-- AboutUs.tsx
+|   |   |-- Chat.tsx
+|   |   |-- Home.tsx
+|   |   |-- Login.tsx
+|   |   |-- PreventionResources.tsx
+|   |   |-- SafetyTools.tsx
+|   |   |-- SignUp.tsx
+|   |   `-- SurvivorSupport.tsx
+|   |-- App.tsx
+|   |-- index.css
+|   |-- main.tsx
+|-- README.md
+|-- vercel.json
+|-- package.json
+|-- tailwind.config.js
+|-- tsconfig.json
 
 5.  Open your browser and visit `http://localhost:5173` to see the application in action.
